@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;  
+    font-weight: 300;
+}
+
+html {
+    background-color: #c2dde6;
+    height: auto;
+    
+}
+
+main {
+    padding-top: 103px;
+}
+
+li, a, button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.active {
+    color: rgba(0,136,169,1);
+}
+
+.item {
+    display: inline-block;
+    padding: 9px 30px;
+    margin-top: 14px;
+}
+
+.item a {
+    cursor: pointer;
+    
+}
+
+.item a:hover {
+    color: rgba(0,136,169,1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    padding: 20px 4%;
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    
+}
+
+.navigation {
+    list-style: none;
+}
+
+.logo {
+    border-radius: 50px;
+}
+
+button {
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    padding: 9px 20px;
+    cursor: pointer;
+    margin-top: 10%;
+   
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.mainContainer, .videoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: #333333;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    
+}
+
+.openingBox {
+    border-radius: 15px;
+    border-style: dashed;
+    border-color: black;
+    border-width: 2px;
+    width: 90%;
+    overflow: hidden;
+    height: auto;
+    margin: 15px 0;
+    background-color: #c2dde6;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    box-shadow: 5px 5px 10px black;
+    
+}
+
+.openingBox p {
+    font-weight: 1000;
+}
+
+
+#ob2 {
+    margin-left: 100px;
+}
+
+#ob4 {
+    margin-left: 100px;
+}
+
+.openingBoxImage {
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+#obImage1 {
+    width: 20%;
+}
+
+#obImage2 {
+    width:12%;
+}
+
+#obImage4 {
+    width: 20%;
+}
+
+.openingBoxImage, .obpara {
+    display: inline-block;
+}
+
+.obPara {
+    width: 80%;
+    padding: 20px;
+    
+}
+
+.videoContainer {
+    padding: 30px 15px;
+    width: 70%;
+}
+
+.videoContainer iframe {
+    width: 854px;
+    height: 480px;
+    margin: auto;
+    border-style: dashed;
+}
+
+#galleryContainer {
+    justify-content: space-around;
+    flex-direction: column;
+    height: 75rem;
+}
+
+#galleryContainer img {
+    padding: 10px;
+    width: 20rem;
+    height: auto;
+    transition: transform .4s ease;
+    
+}
+
+#galleryContainer img:hover {
+    transform: scale(1.35);
+    cursor: pointer;
+}
+
+
